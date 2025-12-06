@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelWave — Бронирование</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f3f3f3;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .input-block {
+            margin-bottom: 15px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            padding: 14px;
+            background: #4caf50;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #45a044;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    TravelWave — Бронирование проживания
+</header>
+
+<div class="container">
+
+    <h2>Поиск номеров</h2>
+
+    <div class="input-block">
+        <label>Дата заезда</label>
+        <input type="date">
+    </div>
+
+    <div class="input-block">
+        <label>Дата выезда</label>
+        <input type="date">
+    </div>
+
+    <div class="input-block">
+        <label>Количество гостей</label>
+        <select>
+            <option>1 гость</option>
+            <option>2 гостя</option>
+            <option>3 гостя</option>
+            <option>4 гостя</option>
+        </select>
+    </div>
+
+    <div class="btn">Найти варианты</div>
+
+</div>
+
+</body>
+</html>
